@@ -1,0 +1,616 @@
+.header{
+    width: 100%;
+    max-height: 950px;
+    background-image: url(../img/yyyyy2800x800-1575377186078.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header-1{
+    width: 100%;
+    max-height: 800px;
+    background-image: url(../img/hierva.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header::before{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(255,255,255,.1), rgba(34,40,49,1));
+}
+.bg-dark{
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+}
+
+body{
+    background-image: url(../img/paven.png);
+}
+
+.navg a{
+    color: white !important;
+    font-family: 'Bebas Neue' ;
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 30px;
+    border: none;
+    border-radius: 7px;
+}
+.li-last a{
+    margin-right: 10px !important;
+}
+
+.navg a:hover{
+    transition: all 0.4s;
+    color: black !important;
+    background-color: rgba(255, 255, 255, 0.952);
+}
+.li{
+    padding: 0px;
+    margin: 0px;
+}
+
+.text-header{
+    min-height: 100vh;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.text-header h2{
+    font-family: 'Anton';
+}
+
+.text-header span{
+    letter-spacing: 5px;
+    font-size: 1.3em;
+    font-family: 'Anton';
+    margin: 0 0 0 5px;
+}
+
+.text-header p{
+    font-size: 1em;
+}
+.btn-yo{
+    padding: 7px 12px;
+    color: white;
+    background-color: #c10000e0;
+    pointer-events: none;
+}
+
+.btn-yo-1{
+    padding: 7px 12px;
+    color: white;
+    background-color: #00A6FF;
+    pointer-events: none;
+}
+.content-body{
+    margin: 0 50px 0 50px;
+    
+}
+.init{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    color: #6C63FF;
+    font-family: 'Anton';
+    padding: 0;
+}
+.btn-1{
+    background-color: #443bf8;
+    color: white;
+    font-family: 'Anton';
+}
+.btn-1:hover{
+    background-color: white;
+    border: 2px solid;
+    border-color: #6C63FF;
+    border-radius: 10px;
+}
+
+
+.card-title-yo{
+    font-family: 'Anton';
+    font-size: 20px;
+    text-align: center;
+}
+
+.pf{
+    font-family: 'Montserrat';
+}
+.body2{
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+}
+
+.border-card{
+    border-color:#6C63FF !important ;
+    border: 3px solid;
+    box-shadow: 5px 20px 20px black;
+    transition: all 300ms;
+}
+
+.border-card:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
+
+.uno{
+    width: 100%;
+    max-height: 700px;
+    background-image: url(../img/sofitel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.uno::before{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: linear-gradient(rgba(255,255,255,.1), rgba(34,40,49,1));
+}
+.dos{
+    width: 100%;
+    max-height: 700px;
+    background-image: url(../img/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dos::before{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: linear-gradient(rgba(255,255,255,.1), rgba(34,40,49,1));
+}
+.center-h{
+    width: 100%;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 30px;
+}
+.center-p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px !important;
+    font-family: 'Montserrat';
+}
+.center-h-1{
+    width: 100%;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 60px;
+}
+.center-p-1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px !important;
+    font-family: 'Montserrat';
+}
+.center-h-2{
+    width: 100%;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 40px;
+}
+.center-p-2{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px !important;
+    font-family: 'Montserrat';
+}
+
+.center-c{
+    text-align: center;
+    margin: 40 auto;
+    font-size: 30px;
+    font-family: 'Anton';
+}
+
+.hotel-h{
+    font-family: 'Anton';
+    border-bottom: 1px solid #024468;
+    color: #024468;
+}
+
+.footer{
+    background-color:rgba(34,40,49,1);
+    width: 100%;
+    height: 250px;
+}
+
+.color{
+    background-color: black;
+    width: 100%;
+    min-height: 150px;
+}
+
+.list-style-none a{
+    text-decoration: none;
+    color: white;
+    line-height: 10px;
+    font-family: 'Montserrat';
+    transition: all 400ms;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.list-style-none a:hover{
+    padding-left: 30px;
+    color: #6C63FF;
+}
+
+.fang{
+    width: 100%;
+    max-height: 700px;
+    background-image: url(../img/fang.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fang::before{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: linear-gradient(rgba(255,255,255,.1), rgba(34,40,49,1));
+}
+
+.lugares{
+    width: 100%;
+    max-height: 700px;
+    background-image: url(../img/image1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.lugares::before{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: linear-gradient(rgba(255,255,255,.1), rgba(34,40,49,1));
+}
+
+.comida{
+    width: 100%;
+    max-height: 700px;
+    background-image: url(../img/image3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.comida::before{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: linear-gradient(rgba(255,255,255,.1), rgba(34,40,49,1));
+}
+
+.hotel{
+    width: 100%;
+    max-height: 400px;
+    background-image: url(../img/hotel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hotel::before{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: linear-gradient(rgba(255,255,255,.1), rgba(34,40,49,1));
+}
+.res{
+    width: 100%;
+    max-height: 400px;
+    background-image: url(../img/res.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.res::before{
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: linear-gradient(rgba(255,255,255,.1), rgba(34,40,49,1));
+}
+
+.lugares-h{
+    text-align: center;
+    font-family: 'Anton';
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #6C63FF;
+}
+.lugares-p{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.h-lugares{
+    text-align: center;
+    font-size: 40px;
+}
+.hh{
+    text-align: center;
+    font-family: 'Anton';
+    font-size: 50px !important;
+    text-decoration: #6C63FF underline;
+    color: #6C63FF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+
+}
+
+#lugares ul ol{
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 40px;
+}
+.p-p{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.init2{
+    text-align: center;
+    color: #6C63FF;
+    font-family: 'Anton';
+    padding: 0;
+}
+
+
+.card-h{
+    text-align: center;
+    color: #6C63FF;
+    font-family: 'Anton';
+    font-size: 30px;
+    /*border-bottom: 1px solid #6C63FF;*/
+}
+
+.card-p{
+    text-align: center;
+    font-family: 'Montrerrat';
+    font-size: 20px;
+}
+
+.container-1{
+    border-color:#6C63FF !important ;
+    border: 1.5px solid;
+    background-color: white;
+    border-radius: 7px;
+}
+.h-border{
+    border-bottom: 3px solid #6C63FF;
+    background-color: #6C63FF;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+/*.card-hover{
+    transition: all 300ms;
+    border: 2px solid;
+    border-color: #6C63FF;
+}
+.card-hover:hover{
+    transform: scale(1.02,1.02);
+} card hover por si las moscas*/
+.init3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: 'Anton';
+    padding: 0;
+}
+.bg-2{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    text-align: center;
+}
+
+.border-shadow{
+    border-color: black !important ;
+    border: 1px solid;
+    box-shadow: 5px 5px 20px black;
+}
+.border-shadow-1{
+    border-color: black !important ;
+    border: 1px solid;
+    box-shadow: 5px 15px 20px black;
+}
+.f a{
+    font-size: 20px;
+}
+.f li{
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+}
+
+.btn-m:hover{
+    background-color: black;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.m-s{
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-color: #fff;
+}
+.p-f{
+    font-family: 'Anton';
+    color: #fff;
+    text-align: left;
+}
+.bg-black{
+    background-color: rgb(26, 25, 25);
+}
+/*Estilos del registro y login*/
+.imagen-fondo{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    height: 100%; 
+    z-index: -1;
+}
+.formulario-ing{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.4);
+    position:relative;
+    background-color: rgba(255,255,255,0.4);
+}
+.info-h2{
+    text-align: center;
+    margin-top: 0;
+    color: #000;
+    font-family: 'Anton';
+}
+.formula, .enviar{
+    display: block;
+    padding: 20px;
+    width: 100%;
+    margin: 30px 0px;
+    font-size: 20px;
+    border: none;
+}
+
+.enviar{
+    background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#3F3A9F), to(#00A6FF));
+    border: 0;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: 0;
+    opacity: 0.7;
+    transition: .8s ease-out;
+    color: #fff;
+
+}
+.enviar:hover{
+    opacity: 1;
+    border-radius: 0;
+    background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#00A6FF), to(#3F3A9F));
+
+}
+
+.h4-registro{
+    font-size: 25px;
+    color: #000;
+    font-family: 'Anton';
+}
+
+.a-registro{
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    color:#024468 ;
+    font-weight: bold;
+
+}
+.a-registro:hover{
+    text-decoration: underline;
+}
+label.error{
+    margin: 0px;
+    display: block;
+    color: red;
+}
+
+input.error{
+    border: 1px solid red;
+    color: red;
+}
+
+.fondo_user{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bienvenido.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color-1{
+    color: black;
+}
+.cont-boton{
+    padding: 30px 0px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.bienvenido{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 80px;
+}
+.bg-3{
+    background-color: #6C63FF;
+    border-radius: 5px;
+}
+.h-index{
+    color: white;
+    font-family: 'Anton';
+    font-size: 40px;
+}
+
+.p-index{
+    color: white;
+    font-family: 'Montrerrat';
+    font-size: 20px;
+    margin-top: 20px;
+}
+
